@@ -1,16 +1,16 @@
-🎨 **Pixel Art Creator**
+# 🎨 **Pixel Art Creator**
 
 ![Screenshot 2025-01-29 at 02-58-47 Pixel Art App-35%](https://github.com/user-attachments/assets/2253c360-fd09-4fc2-99c4-2baa883029d8)
 
-🌟 **Overview**
+# 🌟 **Overview**
 
 The Pixel Art Creator is a web-based application that allows users to design pixel art with a variety of tools. It provides a customizable grid where users can paint, erase, and manipulate colors to create unique pixel-based artwork.
 
-🚀 **Live Demo**
+# 🚀 **Live Demo**
 
 https://glitched-github.github.io/Pixel-Art-App/
 
-📸 **Screenshots**
+# 📸 **Screenshots**
 
 Page Load Screen:\
 ![Screenshot 2025-01-29 at 02-59-17 Pixel Art App-35%](https://github.com/user-attachments/assets/864628dd-84a3-4515-a9db-be67e7bbbbd0)
@@ -21,13 +21,13 @@ Clear Canvas Grid:\
 Art with Toggled Grid Lines:\
 ![Screenshot 2025-01-29 at 02-58-58 Pixel Art App-35%](https://github.com/user-attachments/assets/217399c9-213a-4edb-ad22-ef2f323df65f)
 
-🔧 **Built With**
+# 🔧 **Built With**
 
  - HTML5: Provides the structure for the app.
  - CSS3: Used for styling and responsive layout.
  - JavaScript (ES6): Implements drawing mechanics and tool functionality.
 
-🎮 **Features**
+# 🎮 **Features**
 
  - 🎨 Brush Tool: Select a brush color and paint individual pixels.
  - 🖌️ Background Color: Change the canvas background color.
@@ -40,7 +40,7 @@ Art with Toggled Grid Lines:\
  - 🔲 Grid Toggle: Show or hide the grid lines for a clean view.
  - ❌ Clear Grid: Reset the canvas with one click.
 
-📚 **How It Works**
+# 📚 **How It Works**
 
 1. Select a Tool:
     - Pick a color and start drawing with the brush.
@@ -56,7 +56,7 @@ Art with Toggled Grid Lines:\
     - Use the fill tool for quick background changes.
     - The color picker allows you to reuse colors from your drawing.
 
-🔮 **Future Features**
+# 🔮 **Future Features**
 
 Planned updates include:
 
@@ -65,7 +65,7 @@ Planned updates include:
  - 🔙 Undo Button: Step back to fix mistakes.
  - 🎨 Custom Color Selector: Save and reuse color palettes.
 
-📋 **Known Issues**
+# 📋 **Known Issues**
 
    - Performance considerations: Large grid sizes (e.g., 100x100) may impact performance on lower-end devices.
    - Limited undo: Currently, there's no undo function, but it's planned for future updates.

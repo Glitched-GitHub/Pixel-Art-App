@@ -12,13 +12,13 @@ The Pixel Art Creator is a web-based application that allows users to design pix
 
 📸 **Screenshots**
 
-Page Load Screen:
+Page Load Screen:\
 ![Screenshot 2025-01-29 at 02-59-17 Pixel Art App-35%](https://github.com/user-attachments/assets/864628dd-84a3-4515-a9db-be67e7bbbbd0)
 
-Clear Canvas Grid:
+Clear Canvas Grid:\
 ![Screenshot 2025-01-29 at 02-59-26 Pixel Art App-35%](https://github.com/user-attachments/assets/0fdc1a17-cff4-4cca-9444-fad4ef587289)
 
-Art with Toggled Grid Lines:
+Art with Toggled Grid Lines:\
 ![Screenshot 2025-01-29 at 02-58-58 Pixel Art App-35%](https://github.com/user-attachments/assets/217399c9-213a-4edb-ad22-ef2f323df65f)
 
 🔧 **Built With**

@@ -1,6 +1,6 @@
 🎨 **Pixel Art Creator**
 
-![Screenshot 2025-01-29 at 02-58-58 Pixel Art App-35%](https://github.com/user-attachments/assets/d56b9abe-8819-48c3-86ff-a77a6fc6cdca)
+![Screenshot 2025-01-29 at 02-58-47 Pixel Art App-35%](https://github.com/user-attachments/assets/2253c360-fd09-4fc2-99c4-2baa883029d8)
 
 🌟 **Overview**
 

@@ -8,7 +8,7 @@ The Pixel Art Creator is a web-based application that allows users to design pix
 
 🚀 **Live Demo**
 
-<!-- Replace with your hosted URL -->
+https://glitched-github.github.io/Pixel-Art-App/
 
 📸 **Screenshots**
 

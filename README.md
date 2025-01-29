@@ -40,7 +40,7 @@ Art with Toggled Grid Lines:\
  - 🔲 Grid Toggle: Show or hide the grid lines for a clean view.
  - ❌ Clear Grid: Reset the canvas with one click.
 
-📚 How It Works
+📚 **How It Works**
 
 1. Select a Tool:
     - Pick a color and start drawing with the brush.

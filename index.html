@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pixel Art App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="Script.js"></script>
+
+</head>
+<body>
+
+    <div class="page-wrapper">
+
+        <header class="header-wrap">
+
+            <h1>Pixel Art App</h1>
+
+            <button class="controls-menu-button" data-open="false">
+
+                <svg id="controls-menu-icon"
+                    viewBox="0 0 512 512" 
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M378.089 37.8872C384.394 31.5822 391.879 26.5808 400.117 23.1685C408.355 19.7563 417.184 18 426.101 18C435.018 18 443.847 19.7563 452.085 23.1685C460.323 26.5808 467.808 31.5822 474.113 37.8872C480.418 44.1922 485.419 51.6773 488.832 59.9152C492.244 68.1531 494 76.9824 494 85.899C494 94.8157 492.244 103.645 488.832 111.883C485.419 120.121 480.418 127.606 474.113 133.911L150.033 457.991L18 494L54.0089 361.967L378.089 37.8872Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+            </button>
+
+        </header>
+
+        <main id="content">
+
+            <div class="controls">
+
+                <div class="color-selection">
+
+                    <div class="brush-color-container">
+
+                        <div class="brush-color">
+
+                            <input type="color" value="#80008085" name="brushColor">
+
+                        </div>
+
+                        <span>Brush Color</span>
+
+                    </div>
+
+                    <div class="background-color-container">
+
+                        <div class="background-color">
+
+                            <input type="color" value="#ffffff" name="backgroundColor">
+
+                        </div>
+
+                        <span>Background Color</span>
+
+                    </div>
+
+                    <div class="grid-border-color-container">
+
+                        <div class="grid-border-color">
+
+                            <input type="color" value="#404040" name="gridBorderColor">
+
+                        </div>
+
+                        <span>Grid Lines Color</span>
+
+                    </div>
+
+                </div>
+
+                <div class="color-options">
+
+                    <button id="pickerTool" data-active="false">
+
+                        <p>Color Picker</p>
+
+                    </button>
+                        
+                    <button id="fillTool" data-active="false">
+
+                        <p>Color Fill</p>
+
+                    </button>
+
+                </div>
+
+                <div class="color-editing">
+
+                    <button id="eraserTool" data-active="false">
+
+                        <p>Eraser</p>
+
+                    </button>
+                    
+                    <button id="lightenTool" data-active="false">
+
+                        <p>Lighten</p>
+
+                    </button>
+                    
+                    <button id="darkenTool" data-active="false">
+
+                        <p>Darken</p>
+
+                    </button>
+
+                </div>
+
+                <div class="grid-options">
+
+                    <div class="grid-size">
+
+                        <input type="range" min="4" max="100" step="4" value="32" name="gridSize" class="grid-size-slider" oninput='gridSizeValue.innerText = "Grid Size: " + this.value + " x " + this.value'>
+
+                        <p id="grid-size-value"></p>
+
+                    </div>
+
+                    <button id="grid-toggle" data-toggle="true">
+
+                        <p>Toggle Grid</p>
+
+                    </button>
+
+                    <button id="grid-clear">
+
+                        <p>Clear Grid</p>
+
+                    </button>
+
+                </div>
+
+                <!-- <div class="canvas-download-container">
+
+                    <button id="canvas-download">
+
+                        <p>Download Art</p>
+
+                    </button>
+
+                </div> -->
+
+            </div>
+
+            <div class="canvas">
+
+                <div class="controls-info">
+
+                    <button class="controls-info-button" data-open="true">
+
+                        <svg id="controls-info-icon"
+                            viewBox="0 0 512 512" 
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path id="line-right" d="M387.951 366.738L145.963 124.75C144.444 123.231 141.63 123.583 139.678 125.536L125.536 139.678C123.583 141.63 123.231 144.444 124.75 145.963L366.738 387.951C368.256 389.469 371.07 389.118 373.023 387.165L387.165 373.023C389.118 371.07 389.469 368.256 387.951 366.738Z"/>
+                            <path id="line-left" d="M366.738 124.75L124.75 366.738C123.231 368.256 123.583 371.07 125.536 373.023L139.678 387.165C141.63 389.118 144.444 389.469 145.963 387.951L387.951 145.963C389.469 144.444 389.118 141.63 387.165 139.678L373.023 125.536C371.07 123.583 368.256 123.231 366.738 124.75Z"/>
+                        </svg>
+                            
+
+                    </button>
+
+                    <div class="controls-info-text">
+
+                        <h2>Infomation</h2>
+
+                        <h3>Mouse Controls</h3>
+                        <p>Left Click: Paint<br>Middle Click: Color Picker<br>Right Click: Eraser</p>
+
+                        <h3>Color Fill</h3>
+                        <p>Color fill will take into account diagonals so be careful of gaps when using this.</p>
+
+                        <h3>Opacity</h3>
+                        <p>Opacity is not supported and may break the app if used.</p>
+
+                        <h3>More features in the future</h3>
+                        <p>I may add more features in the future such as being able to download your art as an image and an undo button.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="canvas-grid" draggable="false"></div>
+
+            </div>
+
+        </main>
+
+    </div>
+    
+</body>
+</html>

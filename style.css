@@ -1,82 +1,16 @@
 /*! PixelifySans Font !*/
 
 @font-face {
-    font-family: "Pixelify-Bold";
-    src: url("Fonts/PixelifySans/woff2/PixelifySans-Bold.woff2")
-    format("woff2");
-}
-
-@font-face {
-    font-family: "Pixelify-Medium";
-    src: url("Fonts/PixelifySans/woff2/PixelifySans-Medium.woff2")
-    format("woff2");
-}
-
-@font-face {
     font-family: "Pixelify-Regular";
     src: url("Fonts/PixelifySans/woff2/PixelifySans-Regular.woff2")
-    format("woff2");
-}
-
-@font-face {
-    font-family: "Pixelify-SemiBold";
-    src: url("Fonts/PixelifySans/woff2/PixelifySans-SemiBold.woff2")
     format("woff2");
 }
 
 /*! Monsterrat Font !*/
 
 @font-face {
-    font-family: "Monsterrat-Black";
-    src: url("Fonts/Montserrat/woff2/Montserrat-Black.woff2") 
-    format("woff2");
-}
-
-@font-face {
-    font-family: "Monsterrat-Bold";
-    src: url("Fonts/Montserrat/woff2/Montserrat-Bold.woff2") 
-    format("woff2");
-}
-
-@font-face {
-    font-family: "Monsterrat-ExtraBold";
-    src: url("Fonts/Montserrat/woff2/Montserrat-ExtraBold.woff2") 
-    format("woff2");
-}
-
-@font-face {
-    font-family: "Monsterrat-ExtraLight";
-    src: url("Fonts/Montserrat/woff2/Montserrat-ExtraLight.woff2") 
-    format("woff2");
-}
-
-@font-face {
-    font-family: "Monsterrat-Light";
-    src: url("Fonts/Montserrat/woff2/Montserrat-Light.woff2") 
-    format("woff2");
-}
-
-@font-face {
-    font-family: "Monsterrat-Medium";
-    src: url("Fonts/Montserrat/woff2/Montserrat-Medium.woff2") 
-    format("woff2");
-}
-
-@font-face {
-    font-family: "Monsterrat-Regular";
-    src: url("Fonts/Montserrat/woff2/Montserrat-Regular.woff2") 
-    format("woff2");
-}
-
-@font-face {
     font-family: "Monsterrat-SemiBold";
     src: url("Fonts/Montserrat/woff2/Montserrat-SemiBold.woff2") 
-    format("woff2");
-}
-
-@font-face {
-    font-family: "Monsterrat-Thin";
-    src: url("Fonts/Montserrat/woff2/Montserrat-Thin.woff2") 
     format("woff2");
 }
 
